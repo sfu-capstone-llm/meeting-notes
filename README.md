@@ -74,3 +74,52 @@ What to think:
 	- pipx install
 - Risk/ mitigation factors to incorporate to minimize pain
 - Identify key tasks for Ekstazi to happen
+
+
+## 5 - Oct 17, 2024
+
+1. Code with not good documentation
+    - Need to reverse Engineering
+    - Think about sunk-cost fallacy
+2. Observe and manipulate Python Program
+    - Allow to construct dynamic analysis
+    - Ex: Coverage tool in Python - dynamic analysis
+        - Big array containing flag for each code block
+        - Extra instruction - observability
+    - Not much static reasoning tool in Python
+    - Other tools for dynamic analysis
+    - Can be Good enough for now if good enough
+3. DevOps
+    - Skills to instrument and reason about program tooling
+4. Careful about time spent on project management structure
+5. Identify high-level objectives bit-by-biy
+    - Does the tool support what Ekstazi need to do
+    - If the tool does not fullfil? change tools or add more tools?
+    - Finding least bad set of tools that you might need
+    - File hashing
+        - To see if it changes
+        - Get reasonable hashing
+
+
+### Next steps:
+1. Play around with pycg - usage in fully_qualified_name_inference.py
+2. Get high-level objectives
+
+### High-level objectives:
+Bigger picture - patch validation
+
+Core piece - regression test selection. Reasonable implementation of Ekstazi.
+- Call graph makes sense - through the lens of patch validation. Focus on value-centre rather than cost-centre.
+    - Value - decide whether patch is good or not
+        - Get patch from LLM
+        - Regression test selection/ validation from LLM - select subset of tests to run and validate it
+- Identif
+
+
+1. Check Portion of code that changes
+2. Check influence flow of calls
+3. How it impacts different unit tests
+4. Selectively run the unit tests
+5. Determine the result has changed before or after patch
+
+Clear? Clarity? Ambiguous?
