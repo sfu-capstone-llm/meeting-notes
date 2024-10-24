@@ -123,3 +123,20 @@ Core piece - regression test selection. Reasonable implementation of Ekstazi.
 5. Determine the result has changed before or after patch
 
 Clear? Clarity? Ambiguous?
+
+## 6 - Oct 24, 2024
+
+1. Python settrace very low-level and configurable
+2. system-level libraries included in python
+3. non .py code 
+    4. Hacky, but normal
+    5. Later find patterns
+    6. Change removing to selecting
+7. Selecting files
+    8. Not enumeration based strategy - manual
+    9. Selection and generalized, non-enumerative
+        10. Glob pattern
+11. Standardized module format to organize the folder python files
+    12. Should not matter for most operations
+    13. Not a guarantee but it is ok!
+13. 
