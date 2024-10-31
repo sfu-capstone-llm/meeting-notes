@@ -139,4 +139,16 @@ Clear? Clarity? Ambiguous?
 11. Standardized module format to organize the folder python files
     12. Should not matter for most operations
     13. Not a guarantee but it is ok!
-13. 
+
+
+## 7 - Oct 31, 2024
+
+1. Not worth worrying about too much - system-level deps
+    2. If one hash changes in one place, to what extent how links can affect in various ways or is a real change
+    3. Good problem - can be modelled more precise
+    4. Not worth worrying after we have info, data, and benchmark is a problem
+    5. Maybe get Python bytecode later
+    6. Python not as efficient - use buffer of instructions - some other languages use trees
+    7. If CFG representation, can be easier and pyc file can handle
+    8. JIT compiler - can work more like Ekstazi, fewer things
+    9.
