@@ -151,4 +151,31 @@ Clear? Clarity? Ambiguous?
     6. Python not as efficient - use buffer of instructions - some other languages use trees
     7. If CFG representation, can be easier and pyc file can handle
     8. JIT compiler - can work more like Ekstazi, fewer things
-    9.
+
+
+## 8 - Nov 7, 2024
+
+High-level goal:
+definition of a bug - what is acceptable on fixing
+1. Correctness
+2. Not introducing performance issues
+3. Maintaining style similarity
+
+
+Deep vs. Broad
+
+Deep
+- Polish
+- testing
+- Ensure corner cases
+- Granularity of dependence (function-level)
+
+Broad
+- Other aspects to ensure patch is acceptable
+- Being able to run subset of original tests
+- What if no test cases on bugs, provide tests
+
+Tech assert variance
+- DAIKON
+
+Tackle correctness problem
