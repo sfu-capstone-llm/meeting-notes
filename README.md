@@ -179,3 +179,21 @@ Tech assert variance
 - DAIKON
 
 Tackle correctness problem
+
+
+## 9 - Nov 14, 2024
+
+1. Failing test cases - whether from the programmer or already have
+    - Context
+2. LLM - ecosystem for generating test patches
+    - as part of the process, generate failing test cases - separate part of the system (think of it as someone else's team in industry). Have more leverage to acknowledge that failure has a spec in a digestable and reasonable form.
+    - Define boundary for part of the problem
+3. Profile - keeping information
+    - Value Profile - value it holds
+    - Path profile - difference instances
+    - Complete-path spectra
+    - How to do in practice? modifying program behaviour - trace
+        - Mental model - change the source of code, insert code between line of code - make the spectra works
+        - Instrumentation - have a way of inserting/ measuring something to get a way of data. IN program analysis, way of inserting code into program to get extra info.
+4. Modifying program behaviour
+    - https://github.com/sola-st/DynaPyt
